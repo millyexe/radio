@@ -73,7 +73,7 @@ header .menu_side .playlist h4{
     transition: .3s linear;
 }
 header .menu_side .playlist h4:hover{
-    color: #7bd96f;
+    color: white;
 }
 
 header .menu_side .playlist h4 span{
@@ -153,7 +153,7 @@ header .menu_side .menu_song li h5{
 }
 header .menu_side .menu_song li h5 .subtitle{
     font-size: 9px;
-    color: grey;
+    color: rgb(7, 21, 7);
 }
 header .menu_side .menu_song li h5 .bi{
   position: absolute;
@@ -291,9 +291,9 @@ header .master_play .bar .dot {
 header .master_play .bar .dot::before {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 15px;
-  background: lightblue;
+  width: 0;
+  height: 0;
+  background: rgba(173, 216, 230, 0);
   border-radius: 50%;
   left: -6px;
   top: -6px;
@@ -347,9 +347,9 @@ header .master_play .vol .vol_bar {
 
 header .master_play .vol .dot {
   position: absolute;
-  width: 5px;
-  height: 5px;
-  background: lightblue;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0);
   border-radius: 50%;
   left: 100%;
   top: -1px;
@@ -358,8 +358,8 @@ header .master_play .vol .dot {
 header .master_play .vol .dot::before {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 0;
+  height: 0;
   background: lightblue;
   border-radius: 50%;
   left: -6px;
